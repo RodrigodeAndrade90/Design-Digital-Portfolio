@@ -9,12 +9,15 @@ Desenvolvimento de um portfólio navegável, com os requisitos de um wireframe a
 
 Esse portifólio tem as suas seguintes pastas destinadas a sua funcionalidade:
 
-* doc: contém os arquivos em pdf dos wireframes web e móvel;
+1) doc: contém os arquivos em pdf dos wireframes web e móvel;
+
+2) src: contém os as pastas de HTML, CSS, JS e imagens, divididos em pastas distintas:
+
 * static: contém pastas estáticas para o portfolio entre eles:
 
-- css: contém os CSS estáticos e responsivos da web;
-- js: contém os scripts em Java Script para os menus responsivos;
-- imagens: contém as imagens colocadas para o portfolio navegavel
+-- css: contém os CSS estáticos e responsivos da web; 
+-- js: contém os scripts em Java Script para os menus responsivos;
+-- imagens: contém as imagens colocadas para o portfolio navegavel;
 
 * templates: contém os HTML's navegáveis de cada página.
 
