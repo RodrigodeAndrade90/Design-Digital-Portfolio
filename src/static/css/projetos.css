@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+/*Projeto Vó Maria Félix*/ 
+section.vó{
+    position: relative;
+    display: flex;
+    font-size: 1em; /* tamanho da letra*/
+    color: black;
+    justify-content: center;
+    text-align: justify; 
+    background-color: #18bc9c;
+}
+
+.center-vó{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 50px;
+}
+
+.titulo-vó{
+    width: 100%;
+}
+
+.titulo-projeto-vó{
+    color:white;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.texto-vó{
+    position: relative;
+    float: left;
+    width: 25%;
+    text-justify: auto;
+    margin-right: 2%;
+    margin-top: 15px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    color:white !important;
+}
+
+.imagem-vó{
+    position: relative;
+    width: 65%;
+    float: right;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+
+.imagem-vó img{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+@media (max-width: 768px){
+    .titulo-vó{
+       font-size:300%;
+    }
+
+    .texto-vó{
+        width: 100%;
+    }
+
+    .texto-vó p{
+        font-size: 100%;
+    }
+
+    .imagem-vó{
+        width: 100%;
+    }
+}

@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+/*Trabalho Acadêmico Fatec Jacareí*/ 
+section.tg{
+    position: relative;
+    display: flex;
+    font-size: 1em; /* tamanho da letra*/
+    color: black;
+    justify-content: center;
+    text-align: justify; 
+    background-color: #18bc9c;
+}
+
+.center-tg{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 50px;
+}
+
+.titulo-tg{
+    width: 100%;
+}
+
+.titulo-tg-academico{
+    color:white;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.texto-tg{
+    position: relative;
+    float: left;
+    width: 40%;
+    text-justify: auto;
+    margin-right: 2%;
+    margin-top: 15px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 19px;
+    color:white !important;
+}
+
+.imagem-tg{
+    position: relative;
+    width: 50%;
+    float: right;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+
+.imagem-tg img{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    width: 90%;
+}
+
+/*TCC*/ 
+section.tcc{
+    position: relative;
+    display: flex;
+    font-size: 1em; /* tamanho da letra*/
+    color: black;
+    justify-content: center;
+    text-align: justify; 
+    background-color: #f1f1f1;
+}
+
+.center-tcc{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 50px;
+}
+
+.titulo-tcc{
+    width: 100%;
+}
+
+.titulo-academico-tcc{
+    color:#2c3e50;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.texto-tcc{
+    position: relative;
+    float: left;
+    width: 35%;
+    text-justify: auto;
+    margin-right: 2%;
+    margin-top: 15px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    color:#2c3e50 !important;
+}
+
+.imagem-tcc{
+    position: relative;
+    width: 55%;
+    float: right;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+
+.imagem-tcc img{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    width: 90%;
+}
+
+@media (max-width: 768px) {
+    .titulo-tg{
+       font-size:300%;
+    }
+
+    .texto-tg{
+        width: 100%;
+    }
+
+    .texto-tg p{
+        font-size: 100%;
+    }
+
+    .imagem-tg{
+        width: 100%;
+    }
+
+    .titulo-tcc{
+       font-size:300%;
+    }
+
+    .texto-tcc{
+        width: 100%;
+    }
+
+    .texto-tcc p{
+        font-size: 100%;
+    }
+
+    .imagem-tcc{
+        width: 100%;
+    }
+}

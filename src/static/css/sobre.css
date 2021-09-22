@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+/*Sobre a pessoa*/ 
+section.sobre{
+    position: relative;
+    display: flex;
+    font-size: 1em; /* tamanho da letra*/
+    color: black;
+    justify-content: center;
+    text-align: justify; 
+    background-color: #18bc9c;
+}
+
+.center-sobre{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 50px;
+}
+
+.titulo-pessoa{
+    width: 100%;
+}
+
+.titulo{
+    color:white;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.texto{
+    position: relative;
+    float: left;
+    width: 60%;
+    text-justify: auto;
+    margin-right: 2%;
+    margin-top: 15px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    color:white !important;
+}
+
+.imagem{
+    position: relative;
+    width: 30%;
+    float: right;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+
+.imagem img{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+/*Cidades Onde Morei*/ 
+section.fotos-cidades{
+    background-color: #f1f1f1;
+    padding: 20px 0;
+}
+
+.center-cidades {
+    margin: 0 auto;
+    padding: 0.2%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.titulo-cidades{
+    width: 100%;
+}
+
+.cidades{
+    color: #2c3e50;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+
+.cidades-single{
+    width: 22%;
+    margin-right: 3%;
+    text-align: center;
+    color:#124265;
+}
+
+.cidades-single img{
+    max-width: 100%;
+    height: 80%;
+}
+
+.cidades-single p{
+  text-align: center;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 18px;
+  color:#2c3e50 !important;;
+  padding-top: 15px;
+}
+
+.cidades-single img{
+    filter: grayscale(100%);
+    transform: scale(1,1);
+    transition: 1s;
+}
+
+.cidades-single img:hover{
+    transform: scale(1.1,1.1);
+    filter: grayscale(0);
+}
+
+
+@media (max-width: 768px) {
+    .titulo{
+       font-size:300%;
+    }
+
+    .texto{
+        width: 100%;
+    }
+
+    .texto p{
+        font-size: 100%;
+    }
+
+    .imagem{
+        width: 100%;
+    }
+
+    .titulo-tg{
+       font-size:300%;
+    }
+
+    .texto-tg{
+        width: 100%;
+    }
+
+    .texto-tg p{
+        font-size: 100%;
+    }
+
+    .imagem-tg{
+        width: 100%;
+    }
+
+    .titulo-tcc{
+       font-size:300%;
+    }
+
+    .texto-tcc{
+        width: 100%;
+    }
+
+    .texto-tcc p{
+        font-size: 100%;
+    }
+
+    .imagem-tcc{
+        width: 100%;
+    }
+
+    .titulo-vó{
+       font-size:300%;
+    }
+
+    .texto-vó{
+        width: 100%;
+    }
+
+    .texto-vó p{
+        font-size: 100%;
+    }
+
+    .imagem-vó{
+        width: 100%;
+    }
+}
