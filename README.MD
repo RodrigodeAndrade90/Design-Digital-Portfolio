@@ -15,9 +15,9 @@ Esse portifólio tem as suas seguintes pastas destinadas a sua funcionalidade:
 
 * static: contém pastas estáticas para o portfolio entre eles:
 
-* css: contém os CSS estáticos e responsivos da web; 
-* js: contém os scripts em Java Script para os menus responsivos;
-* imagens: contém as imagens colocadas para o portfolio navegavel;
+	- css: contém os CSS estáticos e responsivos da web; 
+	- js: contém os scripts em Java Script para os menus responsivos;
+	- imagens: contém as imagens colocadas para o portfolio navegavel;
 
 * templates: contém os HTML's navegáveis de cada página.
 
