@@ -22,4 +22,4 @@ Esse portifólio tem as suas seguintes pastas destinadas a sua funcionalidade:
 * templates: contém os HTML's navegáveis de cada página.
 
 ## Vídeo explicativo do portifólio
-(https://www.youtube.com/watch?v=Fq1PKVfYHvw)
+https://www.youtube.com/watch?v=Fq1PKVfYHvw
