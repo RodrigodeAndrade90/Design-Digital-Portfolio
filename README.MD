@@ -36,7 +36,7 @@ Esse portifólio tem as suas seguintes pastas destinadas a sua funcionalidade:
 [src](/src): contém os as pastas de HTML, CSS, JS e imagens, divididos em pastas distintas:
 * [src/static](/src/static): contém pastas estáticas para o portfolio entre eles:
 * [src/static/css](/src/static/css): contém os CSS estáticos e responsivos da web; 
-	* [src/static/css/bootstrap](src/static/css/boostrap): pasta que contem os scripts em java e css em um framework;
+	* [src/static/css/bootstrap](src/static/css/bootstrap): pasta que contem os scripts em java e css em um framework;
 * [src/static/js](/src/static/js): contém os scripts em Java Script para os menus responsivos;
 * [src/static/imagens](/src/static/imagens): contém as imagens colocadas para o portfolio navegavel.
 
