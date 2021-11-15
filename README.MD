@@ -30,7 +30,7 @@ Desenvolvimento de um sistema para Internet que sirva como uma página pessoal o
 
 Esse portifólio tem as suas seguintes pastas destinadas a sua funcionalidade:
 
-[doc](/doc): pasta que os arquivos em pdf dos wireframes web e móvel;
+[doc](/doc): pasta dos arquivos em pdf dos wireframes web e móvel;
 * [wireframe](doc/wireframe_desktop_e_mobile.pdf): contém os arquivos em pdf dos wireframes web e móvel.
   
 [src](/src): contém os as pastas de HTML, CSS, JS e imagens, divididos em pastas distintas:
