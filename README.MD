@@ -32,14 +32,14 @@ Esse portifólio tem as suas seguintes pastas destinadas a sua funcionalidade:
 
 [doc](/doc): pasta que os arquivos em pdf dos wireframes web e móvel;
   * [wireframe](doc/wireframe_desktop_e_mobile.pdf): contém os arquivos em pdf dos wireframes web e móvel;
-* [src](/src): contém os as pastas de HTML, CSS, JS e imagens, divididos em pastas distintas:
+[src](/src): contém os as pastas de HTML, CSS, JS e imagens, divididos em pastas distintas:
 * [src/static](/src/static): contém pastas estáticas para o portfolio entre eles:
 * [src/static/css](/src/static/css): contém os CSS estáticos e responsivos da web; 
- * [src/static/css/bootstrap](src/static/css/boostrap): pasta que contem os scripts em java e css em um framework;
+	* [src/static/css/bootstrap](src/static/css/boostrap): pasta que contem os scripts em java e css em um framework;
 * [src/static/js](/src/static/js): contém os scripts em Java Script para os menus responsivos;
 * [src/static/imagens](/src/static/imagens): contém as imagens colocadas para o portfolio navegavel;
-* [src/templates](/src/templates): contém os HTML's navegáveis de cada página:
-  * [index](/src/templates/index.html): arquivo que contém a estruturação em HTML da página inicial do protótipo;
+[src/templates](/src/templates): contém os HTML's navegáveis de cada página:
+* [index](/src/templates/index.html): arquivo que contém a estruturação em HTML da página inicial do protótipo;
   * [sobre](/src/templates/sobre.html): arquivo que contém a estruturação em HTML da página sobre do protótipo;
   * [trabalhos-academicos](/src/templates/trabalhos-academicos.html): arquivo que contém a estruturação em HTML da página trabalhos-academicos do protótipo.
   * [projetos](/src/templates/projetos.html): arquivo que contém a estruturação em HTML da página de projetos do protótipo;
