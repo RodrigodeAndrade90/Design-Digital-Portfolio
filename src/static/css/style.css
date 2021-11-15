@@ -1,121 +1,81 @@
-.container{
+body{
 	width: 100%;
 	height: 100%;
 }
 
-/*Header e Nav*/ 
-a {
-  color: #fff;
-  text-decoration: none;
-  font-family: Roboto;
-  font-weight: bold;
-  font-size: 18px;
+a{
+    font-family: Roboto;
+    font-weight: bold;
 }
 
-a:hover {
-  background: rgba(0, 0, 0, 0.05);
+p {
+    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-#header {
-  box-sizing: border-box;
-  padding: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: #23232e;
+.foto-perfil {
+    height: 100%;
+    max-width: auto;
+    border-radius: 50%;
 }
 
-#menu {
-  display: flex;
-  list-style: none;
-  gap: 1rem;
+.icones {
+    padding-left: 5px;
 }
 
-#menu a {
-  display: block;
-  padding: 0.5rem;
+.escolas {
+    text-underline-position: under;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #2c3e50
 }
 
-#menu .btn-menu {
+.paragrafoBrancos {
+    color: white !important;
+}
+
+
+.jumbotron {
+    margin-bottom: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    color: black !important;
+}
+
+.pessoa {
+    background-color: #18bc9c;
+}
+
+.itemMenu {
+    color: white;
+}
+
+.btn-menu {
     background-color: #2937AE;
     padding: 8px 20px;
     color:#fff;  
 }
 
-#menu .btn-menu:hover {
+.btn-menu:hover {
     background-color:#525252;
     color: white;
 }
 
-
-#btn-mobile {
-  color: #fff;
-  display: none;
-}
-
-
-/*Section Rodrigo*/ 
-section.pessoa{
-	background-color: #18bc9c;
-}
-
-.foto{
-  padding-top: 40px;
-}
-
-
-.foto-perfil{
-  width: 250px;
-  height: 100%;
-  max-width: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 50%;
-}
-
-.nome{
-	color:white;
-	text-align: center;
-	font-family: Roboto;
-	font-size: 40px;
-	text-transform: uppercase;
-}
-
-.formacao{
-	text-align: center;
-	font-family: Roboto;
-	font-size: 20px;
-	color:white !important;
-}
-
-.contato{
-    width: 100%;
-    padding-top: 10px;
-    text-align: center;
-}
-
-.titulo-contato{
-    text-align: center;
-    font-family: Roboto;
-    font-size: 25px;
-    color:white !important;
-}
-
-.contato u{
-    color: white;
-}
-
 .foto-icons{
-  width: 50px;
-  height: 100%;
-  max-width: auto;
-  display: block;
-  display: inline-flex;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
-  margin-bottom: 20px;
+    width: 50px;
+    height: 100%;
+    max-width: auto;
+    display: block;
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 
 .contato img:hover {
@@ -123,54 +83,6 @@ section.pessoa{
     color: black;
 }
 
-
-/*Faculdades e Escolas*/ 
-section.fotos-escolas{
-    background-color: #f1f1f1;
-    padding: 20px 0;
-}
-
-.center-escolas {
-    margin: 0 auto;
-    padding: 0.2%;
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 100px;
-}
-
-.titulo-escolas{
-    width: 100%;
-}
-
-.escolas{
-    color: #2c3e50;
-    text-align: center;
-    font-family: Roboto;
-    font-size: 40px;
-    text-transform: uppercase;
-}
-
-
-.escolas-single{
-    width: 22%;
-    margin-right: 3%;
-    text-align: center;
-    color:#124265;
-}
-
-.escolas-single img{
-    max-width: 100%;
-    height: 80%;
-}
-
-.escolas-single p{
-  text-align: center;
-  font-family: Roboto;
-  font-weight: bold;
-  font-size: 18px;
-  color:#2c3e50 !important;;
-  padding-top: 15px;
-}
 
 .escolas-single img{
     filter: grayscale(100%);
@@ -181,115 +93,4 @@ section.fotos-escolas{
 .escolas-single img:hover{
     transform: scale(1.1,1.1);
     filter: grayscale(0);
-}
-
-/*Footer Rodrigo*/ 
-.footer-rodrigo{
-	background-color:#2c3e50;
-	padding:0px; 
-	margin:0px;
-}
-
-.footer-rodrigo p{
-	margin:0px;
-	padding-top:15px;
-	padding-bottom:15px;
-	font-family: Roboto;
-    font-size: 18px;
-	text-align: center;
-	color:white !important;
-}
-
-@media (max-width: 768px) {
-    #menu {
-    display: block;
-    position: absolute;
-    width: 100%;
-    margin-top: 73px;
-    right: 0px;
-    background: #23232e;
-    transition: 0.6s;
-    z-index: 1000;
-    height: 0px;
-    visibility: hidden;
-    overflow-y: hidden;
-    }
-
-    #nav.active #menu {
-    height: calc(50vh - 40px);
-    visibility: visible;
-    overflow-y: auto;
-    }
-
-    #menu a {
-    padding: 1rem 0;
-    margin: 0 1rem;
-    text-align: center;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
-    }
-
-    #btn-mobile {
-    display: flex;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    border: none;
-    background: none;
-    cursor: pointer;
-    gap: 0.5rem;
-    }
-
-    #menu-mobile {
-    border-top: 2px solid;
-    width: 20px;
-    }
-
-    #menu-mobile::after,
-    #menu-mobile::before {
-    content: '';
-    display: block;
-    width: 20px;
-    height: 2px;
-    background: currentColor;
-    margin-top: 5px;
-    transition: 0.3s;
-    position: relative;
-    }
-
-    #nav.active #menu-mobile {
-    border-top-color: transparent;
-    }
-
-    #nav.active #menu-mobile::before {
-    transform: rotate(135deg);
-    }
-
-    #nav.active #menu-mobile::after {
-    transform: rotate(-135deg);
-    top: -7px;
-    }
-
-    #menu .btn-menu li a {
-    text-align: center;
-    }
-
-    section.pessoa{
-        position: relative;
-    }
-
-    .center-pessoa{
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-
-    .nome{
-        font-size: 200%;
-    }
-
-    .formacao{
-        font-size: 100%;
-    }
-
-    .escolas-single img{
-        height: 50%;
-    }
 }
