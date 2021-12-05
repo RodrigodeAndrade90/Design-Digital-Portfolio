@@ -1,134 +1,75 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+{% extends 'base.html' %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Rodrigo de Andrade</title>
-    <link rel="stylesheet" type="text/css" href="../static/css/style.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="../static/css/bootstrap/css/bootstrap.min.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="../static/css/bootstrap/css/icons-1.6.1/font/bootstrap-icons.css" media="screen">
-    
-    <link rel="icon" href="../static/imagens/Logotipo.png"> 
+{% block conteudo%}
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" >
+<section class="jumbotron text-center pessoa">
+    <div class="container">
+        <img src="../static/imagens/Rodrigo de Andrade.jpg" class="mt-5 foto-perfil" alt="Responsive image" width="200">
+        <h1 class="jumbotron-heading" style="color:white;text-transform: uppercase;">Rodrigo de Andrade</h1>
+        <p class="lead" style="color:white !important;">Tecnólogo em Geoprocessamento -Fatec Jacareí
+        </p>
+        <p class="lead" style="color:white !important;">Técnico em Redes de Computadores -Etec Jacareí
+        </p>
+        <p class="lead" style="color:white !important;">Cursando Tecnólogo em Desenvolvimento de Software Multiplataforma -Fatec São José dos Campos
+        </p>
+        <div class="contato">
+            <h4 class="jumbotron-heading" style="color:white;text-transform: uppercase;">Contato</h4>
+            </h2></u>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-        </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-        </script>
-    <script rel="stylesheet" src="../static/css/bootstrap/js/bootstrap.min.js" media="screen"></script>
-</head>
-
-<body>
-
-    <nav class="navbar navbar-expand-md navbar-light" style="background-color:#23232e">
-        <a class="navbar-brand" href="index.html">
-            <img src="../static/imagens/Logotipo.png" width="142">
-        </a>
-        <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto me-3 mb-lg-0 text-center">
-              <li class="nav-item">
-                <a class="nav-item nav-link btn-menu" href="index.html" style=color:white>Início</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-item nav-link" href="sobre.html" style=color:white>Sobre</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-item nav-link" href="trabalhos-academicos.html" style=color:white>Trabalhos Acadêmicos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-item nav-link" href="projetos.html" style=color:white>Projetos</a>
-              </li>
-            </ul>
-          </div>
+            <a target="_blank" href="https://www.linkedin.com/in/rodrigo-de-andrade-a34605104/">
+                <img src="../static/imagens/linkedin.png" class="foto-icons" >
+            </a>
+                    
+            <a target="_blank" href="https:github.com/RodrigodeAndrade90/">
+                <img src="../static/imagens/github.png" class="foto-icons">
+            </a>
         </div>
-    </nav>
-
-    <section class="jumbotron text-center pessoa">
-        <div class="container">
-            <img src="../static/imagens/Rodrigo de Andrade.jpg" class="mt-5 foto-perfil" alt="Responsive image" width="200">
-            <h1 class="jumbotron-heading" style="color:white;text-transform: uppercase;">Rodrigo de Andrade</h1>
-            <p class="lead" style="color:white !important;">Tecnólogo em Geoprocessamento -Fatec Jacareí
-            </p>
-            <p class="lead" style="color:white !important;">Técnico em Redes de Computadores -Etec Jacareí
-            </p>
-            <p class="lead" style="color:white !important;">Cursando Tecnólogo em Desenvolvimento de Software Multiplataforma -Fatec São José dos Campos
-            </p>
-            <div class="contato">
-                <h4 class="jumbotron-heading" style="color:white;text-transform: uppercase;">Contato</h4>
-                </h2></u>
-
-                <a target="_blank" href="https://www.linkedin.com/in/rodrigo-de-andrade-a34605104/">
-                    <img src="../static/imagens/linkedin.png" class="foto-icons" >
-                </a>
-                        
-                <a target="_blank" href="https:github.com/RodrigodeAndrade90/">
-                    <img src="../static/imagens/github.png" class="foto-icons">
-                </a>
+    </div>
+    </div>
+</section>
+<!-- Projects -->
+<div class="album py-5 bg-light ">
+    <div class="container">
+        <h2 class="text-center jumbotron-heading escolas">Faculdades e Escolas Técnicas</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class=" mb-4 box-shadow escolas-single">
+                    <img class="card-img-top"
+                        data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                        alt="Thumbnail [100%x225]" src="../static/imagens/Fatec Jacarei.png" data-holder-rendered="true"
+                        style="height: 29%; width: 100%;max-width: 100%; display: block;">
+                    <div class="card-body">
+                        <h4 style="padding-bottom:90px;margin-bottom: 0px;color:white;" class="text-center"><a target="_blank" 
+                            href="http://www.fatecjacarei.com.br/">Fatec Jacareí</a></h4>
+                    </div>
+                </div>
             </div>
-        </div>
-        </div>
-    </section>
-    <!-- Projects -->
-    <div class="album py-5 bg-light ">
-        <div class="container">
-            <h2 class="text-center jumbotron-heading escolas">Faculdades e Escolas Técnicas</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class=" mb-4 box-shadow escolas-single">
-                        <img class="card-img-top"
-                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                            alt="Thumbnail [100%x225]" src="../static/imagens/Fatec Jacarei.png" data-holder-rendered="true"
-                            style="height: 29%; width: 100%;max-width: 100%; display: block;">
-                        <div class="card-body">
-                            <h4 style="padding-bottom:90px;margin-bottom: 0px;color:white;" class="text-center"><a target="_blank" 
-                                href="http://www.fatecjacarei.com.br/">Fatec Jacareí</a></h4>
-                        </div>
+            <div class="col-md-4">
+                <div class="mb-4 box-shadow escolas-single">
+                    <img class="card-img-top"
+                        data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                        alt="Thumbnail [100%x225]" src="../static/imagens/Etec Jacarei.jpg" data-holder-rendered="true"
+                        style="height: 29%; width: 100%; display: block;">
+                    <div class="card-body">
+                        <h4 style="padding-bottom:90px;margin-bottom: 0px;color:white;" class="text-center"><a target="_blank" 
+                            href="http://etecjbento.com.br/web/">Etec Cônego José Bento</a></h4>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="mb-4 box-shadow escolas-single">
-                        <img class="card-img-top"
-                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                            alt="Thumbnail [100%x225]" src="../static/imagens/Etec Jacarei.jpg" data-holder-rendered="true"
-                            style="height: 29%; width: 100%; display: block;">
-                        <div class="card-body">
-                            <h4 style="padding-bottom:90px;margin-bottom: 0px;color:white;" class="text-center"><a target="_blank" 
-                                href="http://etecjbento.com.br/web/">Etec Cônego José Bento</a></h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class=" mb-4 box-shadow escolas-single">
-                        <img class="card-img-top"
-                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                            alt="Thumbnail [100%x225]" src="../static/imagens/Fatec SJC.jpg" data-holder-rendered="true"
-                            style="height: 29%; width: 100%;max-width: 100%; display: block;">
-                        <div class="card-body">
-                            <h4 style="padding-bottom:90px;margin-bottom: 0px;color:white;" class="text-center"><a target="_blank" 
-                                href="https://fatecsjc-prd.azurewebsites.net/">Fatec Jessen Vidal</a></h4>
-                        </div>
+            </div>
+            <div class="col-md-4">
+                <div class=" mb-4 box-shadow escolas-single">
+                    <img class="card-img-top"
+                        data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                        alt="Thumbnail [100%x225]" src="../static/imagens/Fatec SJC.jpg" data-holder-rendered="true"
+                        style="height: 29%; width: 100%;max-width: 100%; display: block;">
+                    <div class="card-body">
+                        <h4 style="padding-bottom:90px;margin-bottom: 0px;color:white;" class="text-center"><a target="_blank" 
+                            href="https://fatecsjc-prd.azurewebsites.net/">Fatec Jessen Vidal</a></h4>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
-    <footer class="text-center" style="background-color:#2c3e50;padding:0px; margin:0px">
-        <p style="margin:0px;padding-top:15px;padding-bottom:15px;color:white !important">Copyright 2021 - 
-            Rodrigo de Andrade®
-        </p>
-    </footer>
-
-</body>
-
-</html>
+{% endblock %}
