@@ -16,16 +16,18 @@ Desenvolvimento de um sistema para Internet que sirva como uma página pessoal o
     <br/>
     c. Outras informações pertinentes (interesses, etc.). 
   2. Portfólio (trabalhos desenvolvidos ou que pretende desenvolver); 
-  3. Outras informações relevantes ou de interesse do autor/proprietário. 
+  3. Outras informações relevantes ou de interesse do autor/proprietário;
+  4. Aplicação de um framework e de um servidor de aplicação para acessar a página 
 
 # Requisitos
 * Responsividade de maneira a manter um layout amigável e bem estruturado tanto em um computador de mesa (desktop, laptop e similares) como em um dispositivo móvel;
 * Boas  práticas  de  arquitetura  de  informação  na  construção  das interfaces;
-* Possuir no mínimo, três interfaces acessíveis a partir de algum mecanismo de navegação;
+* Possuir no mínimo, quatro interfaces acessíveis a partir de algum mecanismo de navegação;
 * Possuir um esquema de cores e layout único com relação aos demais sistemas desenvolvidos  pelos  seus  colegas  de  turma;
 * Fazer  uso  de  arquivo  de  fonte  externa,  disponibilizado  pelo  servidor  da aplicação, sendo que a tipografia deve ser adequada à natureza do uso escolhido;
 * Conter ao menos uma imagem ou logotipo que seja único e que contribua para dar uma identidade visual ao mesmo;
 *  Deve  aplicar  a  tecnologia/conceito  de utilização  de  arquivos  de  imagens responsivas. 
+* Tecnologias de front-end no caso Html5, CSS3, e Javascript, do back-end o Python 3, além do framework Flask, e do servidor de aplicação web Heroku.
 
 
 Esse portifólio tem as suas seguintes pastas destinadas a sua funcionalidade:
@@ -54,3 +56,44 @@ https://www.youtube.com/watch?v=Fq1PKVfYHvw
 
 ## Vídeo explicativo do sistema Dekstop e Mobile- Entrega 2
 https://www.youtube.com/watch?v=fogx0P2dXwE
+
+## Passo a passo para a execução do sistema
+
+Clonar o repositório:
+```bash
+git clone https://github.com/RodrigodeAndrade90/Design-Digital-Portfolio.git
+```
+
+Criar ambiente virtual Python:
+```bash
+python -m venv env
+```
+Iniciar ambiente virtual:
+
+Para Windows:
+```bash
+.\env\Scripts\activate
+```
+
+Para Linux:
+```bash
+source env/bin/activate
+```
+
+Instalar dependências:
+```bash
+pip install -r requirements.txt
+```
+
+Entrar na pasta src:
+```bash
+cd src
+```
+
+Executar aplicação:
+```bash
+python app.py
+```
+
+### Acesse a Aplicação em:
+ https://rodrigo-de-andrade.herokuapp.com/
